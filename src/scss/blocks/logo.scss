@@ -1,0 +1,22 @@
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+    
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    color: var(--color-black-main);
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-green-main);
+    border-radius: 50%;
+}

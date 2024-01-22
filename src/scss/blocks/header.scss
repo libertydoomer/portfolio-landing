@@ -1,0 +1,10 @@
+.header {
+    background-color: var(--color-header-500);
+    padding-top: 46px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
