@@ -1,0 +1,14 @@
+.portfolio {
+    background-color: var(--color-header-500);
+    padding: 90px 0;
+}
+
+.portfolio__title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.portfolio__title--main {
+    font-size: var(--fz-portfolio);
+    font-weight: 600;
+}

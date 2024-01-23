@@ -1,0 +1,20 @@
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project__image {
+    margin-bottom: 40px;
+}
+
+.project__title {
+    font-size: var(--fz-project);
+}
+
+.project__title a {
+    color: var(--color-black-main);
+    text-decoration: underline;
+}
