@@ -1,0 +1,19 @@
+.services {
+    padding: 90px 0;
+}
+
+.service {
+    display: flex;
+    column-gap: 30px;
+}
+
+.service__img {
+    margin-bottom: 30px;
+}
+
+.service__title {
+    font-weight: 600;
+    font-size: var(--fz-services);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
