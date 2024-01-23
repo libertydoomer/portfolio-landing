@@ -7,4 +7,16 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header__content {
+    max-width: 500px;
+    margin-top: 124px;
 }
