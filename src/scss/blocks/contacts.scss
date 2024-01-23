@@ -1,0 +1,35 @@
+.contacts {
+    margin-bottom: 40px;
+}
+
+.contacts__title {
+    font-size: var(--fz-portfolio);
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contacts__content {
+    max-width: 480px;
+    margin: 0 auto 40px;
+    font-size: var(--fz-project);
+}
+
+.contacts__content p + p {
+    margin-top: 1em;
+}
+
+.contacts__button {
+    margin-bottom: 80px;
+}
+
+.contacts__social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts__footer {
+    color: var(--color-gray-footer);
+}
